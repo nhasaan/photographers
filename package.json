@@ -1,0 +1,39 @@
+{
+  "name": "photographers",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Nazmul Hasan",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.5.1",
+    "@nuxtjs/axios": "^5.3.1",
+    "bulma": "^0.7.1",
+    "dotenv": "^5.0.1",
+    "element-ui": "^2.4.0",
+    "es6-promise": "^4.2.4",
+    "font-awesome": "^4.7.0",
+    "fs": "0.0.1-security",
+    "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.0",
+    "moment": "^2.22.2",
+    "nuxt": "^1.0.0",
+    "vee-validate": "^2.1.0-beta.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.2"
+  }
+}
