@@ -57,8 +57,8 @@ module.exports = {
   ],
 
   env: {
-    baseUrl: process.env.BASE_URL || 'http://photographers.test/api',
-    baseImgUrl: process.env.BASE_IMG_URL || 'http://photographers.test/public/storage/images/'
+    baseUrl: process.env.BASE_URL || 'https://photographers.appbrainlabs.com/api',
+    baseImgUrl: process.env.BASE_IMG_URL || 'https://photographers.appbrainlabs.com/public/storage/images/'
   },
 
   plugins: [
