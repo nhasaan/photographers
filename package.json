@@ -23,7 +23,7 @@
     "fs": "0.0.1-security",
     "isomorphic-fetch": "^2.2.1",
     "js-cookie": "^2.2.0",
-    "moment": "^2.22.2",
+    "moment": "^2.29.2",
     "nuxt": "^1.0.0",
     "vee-validate": "^2.1.0-beta.0"
   },
